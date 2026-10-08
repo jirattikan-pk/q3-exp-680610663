@@ -33,9 +33,7 @@ export function CategoryCards() {
           0,
         );
 
-        // const icon = expenses.filter(
-        //   (i) => i.category === category,
-        // );
+        // const icon = iconMap.map((i) => i.key === category.value)
 
         return (
           // Use Card component to display values by category
