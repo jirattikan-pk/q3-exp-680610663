@@ -23,12 +23,12 @@ export function DashboardTabs() {
       </TabsList>
       <TabsContent value="overview">
         <Card>
-          
           <CardContent className="text-sm text-muted-foreground">
             <OverviewCards/>
           </CardContent>
         </Card>
       </TabsContent>
+
       <TabsContent value="byCategory">
         <Card>
           <CardContent className="text-sm text-muted-foreground">
